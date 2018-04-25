@@ -19,6 +19,7 @@ class ComposerStaticInit09bde1b9297d418d3ddf56a938894eba
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\redactor\\' => 13,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -36,11 +37,15 @@ class ComposerStaticInit09bde1b9297d418d3ddf56a938894eba
         ),
         'm' => 
         array (
+            'mdm\\upload\\' => 11,
             'mdm\\admin\\' => 10,
         ),
         'k' => 
         array (
             'kriss\\wangEditor\\' => 17,
+            'kartik\\plugins\\fileinput\\' => 25,
+            'kartik\\file\\' => 12,
+            'kartik\\base\\' => 12,
         ),
         'd' => 
         array (
@@ -95,6 +100,10 @@ class ComposerStaticInit09bde1b9297d418d3ddf56a938894eba
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\redactor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiidoc/yii2-redactor',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -129,6 +138,10 @@ class ComposerStaticInit09bde1b9297d418d3ddf56a938894eba
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
+        'mdm\\upload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mdmsoft/yii2-upload-file',
+        ),
         'mdm\\admin\\' => 
         array (
             0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
@@ -136,6 +149,18 @@ class ComposerStaticInit09bde1b9297d418d3ddf56a938894eba
         'kriss\\wangEditor\\' => 
         array (
             0 => __DIR__ . '/..' . '/kriss/yii2-wang-editor',
+        ),
+        'kartik\\plugins\\fileinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-fileinput',
+        ),
+        'kartik\\file\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-fileinput',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
         ),
         'dmstr\\' => 
         array (
